@@ -1,0 +1,23 @@
+<div class="redbg" style="width:100%;position:fixed; z-index:1;">
+ 
+   			<div class="imgback imgbackdiv" ng-click="AppCtrl.changePage(2)"></div>
+             <div class="text-center">
+                <p class="pclass">DATA LATENCY REPORT</p>
+             </div> 
+       <!--  <div class="fa fa-sign-out logoutdiv" ng-click="AppCtrl.changePage(1)">      
+               </div> --> 
+ </div>
+<div class="greybg" ng-click="togglebody();" style="position:fixed; width:100%;z-index:1;">
+		<!-- <div class="header"> -->
+			<label class="fontcat" style="position:relative; left:37px !important;">Source</label>
+		    <label class="fontcat" style="position: absolute;left: 50%;">Run Date</label>
+			<label class="fontcat headplace"><label class="circle"></label>Status</label>
+		<!-- </div> -->	
+</div>
+<div style="background-color:white !important; padding-top:105px;">
+		<ul ng-repeat="latdata in latencydata track by $index">
+			<li class="jobs"><b class="latsource">{{latdata.Source}}</b><label class="latpage">{{latdata.Date}}</label><label ng-show="latdata.Status=='T-2' || latdata.Status=='T-1'" style="float:right;margin-right: 45px;" class="greencircle">{{latdata.Status}}</label>
+			<label ng-show="latdata.Status!='T-2' && latdata.Status!='T-1'" style="float:right;margin-right: 45px;" class="redcircle">{{latdata.Status}}</label></li>
+		
+		</ul>
+</div>

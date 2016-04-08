@@ -1,0 +1,23 @@
+<div class="redbg" style="width:100%;position:fixed;z-index:1;">
+ 
+   			<div class="imgback imgbackdiv" ng-click="AppCtrl.changePage(2)"></div>
+             <div class="text-center">
+                <p class="pclass">ETL JOB TREND</p>
+             </div>
+</div>
+<div style="background-color:white !important; height:590px !important;">
+
+  <div id="container" style="min-width: 310px; height: 350px; margin-left:10px !important; padding-top:72px"></div>
+ <table class="chartable">
+  		<tr  style="background-color: #7e7e7e;">
+  			<th style="border:1px solid #7e7e7e; font-size:11px !important;color:white !important;">Runtime (in Hrs)</th>
+  			<th data-ng-repeat="d in scheduledate" style="border:1px solid #7e7e7e;font-size:11px !important;color:white !important;">{{d}}</th>
+  		</tr>
+  		
+  		 <tr data-ng-repeat="value in nadura">
+  		<td>{{value.name}}</td>
+  		<td data-ng-repeat="dur in value.data track by $index">{{dur}}</td>
+  		</tr> 
+  		
+  </table>
+</div>

@@ -1,0 +1,30 @@
+<div class="redbg" style="width:100%;position:fixed;z-index:1;">
+ 
+   			<div class="imgback imgbackdiv" ng-click="AppCtrl.changePage(2)"></div>
+             <div class="text-center">
+                <p class="pclass">ETL JOB REPORT</p>
+             </div> </div>
+<div  style="padding-top:60px;background-color:white !important;">
+<table class="table" style="background-color:#7e7e7e !important; border-color:darkblue !important;margin-top: 0px;position: fixed;width: 100%; z-index:1;">
+		<tr>
+			<th style="color:white; font-size:11px;width:85px;font-weight:bold;">Job Stream</th>
+			<th style="color:white; font-size:11px;width:73px;font-weight:bold;">Start Date</th>
+			<th style="color:white; font-size:11px;width:77px;font-weight:bold;">End Date</th>
+			<th style="color:white; font-size:11px;width:52px;font-weight:bold;">Duration</th>
+		</tr>
+		</table>
+		<div style="padding-top:45px;">
+<div data-ng-repeat="data in newfunctionality" data-ng-click="togglebody();">
+  <label style="color:darkblue; font-size:13px;font-weight:bold;font-family:arial; position: relative;float: left; left:10px;top:2px;">{{(data.JOB_Name).toUpperCase()}}</label><br>
+  	<table class="table">
+		<tr>
+			<td style="color:#e71d1c;font-size:9px;width:70px;color:green;font-weight:strong;">Threshold : {{data.Threshold}}</td>
+			<td style="color:#e71d1c;font-size:9px;width:50px; word-wrap: break-word;font-weight:strong;">{{(data.Start_Date_Time).substr(0,9)}}<br>{{(data.Start_Date_Time).substr(9)}}</td>
+			<td style="color:#e71d1c;font-size:9px;width:50px; word-wrap: break-word;font-weight:strong;">{{(data.End_Date_Time).substr(0,10)}}<br>{{(data.End_Date_Time).substr(10)}}</td>
+			<td style="color:#e71d1c;font-size:9px;width:50px;font-weight:strong;">{{data.Duration}}</td>
+			
+		</tr>
+	</table>
+</div>
+</div>
+</div>

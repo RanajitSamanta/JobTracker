@@ -1,0 +1,329 @@
+
+/* Stylesheet content from css/xhdpi.css in folder common */
+
+/* Stylesheet content from css/main.css in folder common */
+
+/* Stylesheet content from css/main.css in folder android */
+
+/* this CSS file extends the application CSS file found under common\css */
+
+.styling{
+	background-image:url(../images/xhdpi/xhdpi_splashScreen.png) !important; 
+	background-repeat: no-repeat !important;
+	/*  height: 480px;
+ 	 width: 320px; */
+ 	 background-color:#edeced !important;
+}
+.logologin{
+	/* background-image:url(../images/xhdpi/loginlogoIBM.png) !important; 
+	background-repeat: no-repeat !important; */
+	margin-left:50%;
+	margin-top:45%;
+}
+.padset{
+	
+	background-color: #00007f !important;
+	 width:100% !important;
+	 color: white !important;
+	 height:22px !important;
+      
+	}
+ .padsetback{
+	
+	background-color: white !important;
+	 width:100% !important;
+	 color: black !important;
+	 height:22px !important;
+	  border-color:transparent !important;
+      
+	} 
+	.marginsetting{margin-top:320px;
+	}
+.setting{	
+    border-style: solid !important;
+    border-width: 1px !important; 
+    border-color: #00007f;
+    color:#a1a3b5 !important;
+
+}
+.password{
+	background-image: url(../images/xhdpi/ico_login_pw.png) !important;
+	background-position: left !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	
+}
+.username{
+	background-image: url(../images/xhdpi/ico_login_un.png) !important;
+	background-position: left !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	}
+#rectangle2{
+	margin-top:100px;
+	background-image: url(../images/xhdpi/hm_icoETLJobReport.png) !important;
+	background-position: 50% 40% !important;
+	height:200px;
+	width:25%;
+	background-repeat: no-repeat !important;
+	position: relative;
+    left: 38%;
+}
+#rectangle2:hover{
+background-image:  url(../images/xhdpi/hm_icoETLJobReportA.png) !important;
+background-repeat: no-repeat !important;
+}
+#rectangle1{	
+	margin-top:35px;
+	background-image: url(../images/xhdpi/hm_icoDataLatencyStatus.png) !important;
+	background-position: 50% 40% !important;
+	height:200px;
+	width:25%;
+	background-repeat: no-repeat !important;
+	position: relative;
+  left: 38%;
+    
+}
+#rectangle1:hover{
+background-image:  url(../images/xhdpi/hm_icoDataLatencyStatusA.png) !important;
+background-repeat: no-repeat !important;
+}
+#rectangle3{	
+	margin-top:100px;
+	background-image: url(../images/xhdpi/hm_icoETLJobReportTrend.png) !important;
+	 background-position: 50% 40% !important;
+	 height:200px;
+	 width:25%;
+	background-repeat: no-repeat !important;
+    position: relative;
+  left: 38%;
+}
+#rectangle3:hover{
+background-image:  url(../images/xhdpi/hm_icoETLJobReportTrendA.png) !important;
+background-repeat: no-repeat !important;
+}
+.undercircle
+{	position:relative;
+ 	top: 190px;
+  	left: 10%; 
+    color:#00007f;
+}
+.feedback{
+	position:relative;
+ 	left:33% !important; 
+   
+}
+
+.labell{
+	
+	color: #00007f;
+	 margin-left: 20px; 
+	 margin-top: 20px; 
+	 font-size:14px;
+}
+
+.styled-button {
+	background: #5B74A8;
+	background: -moz-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#00007f), color-stop(100%,#00007f));
+	background: -webkit-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: -o-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: -ms-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: linear-gradient(top,#00007f 0%,#00007f 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00007f',endColorstr='#5B74A8',GradientType=0);
+	padding:2px 6px;
+	height:10px;
+	color:#fff;
+	font-family:'Helvetica',sans-serif;
+	font-size:11px;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border:1px solid transparent;
+}
+.imgham{
+	background-image:url(../images/xhdpi/hdr_icoMenu.png) !important; 
+	background-repeat: no-repeat !important;
+	background-position:5% 50% !important;
+	width:10% !important;
+	margin-left: -40px;
+    height: 50px;
+	
+}
+.imgham:hover{
+	background-image:url(../images/xhdpi/hdr_icoMenuA.png) !important; 
+	background-repeat: no-repeat !important;
+}
+.imgback{
+	background-image:url(../images/xhdpi/hdr_icoBack.png) !important; 
+	background-repeat: no-repeat !important;
+	background-position:5% 50% !important;
+	width:10% !important;
+	margin-left:0px;
+	position: relative;top:30px;
+}
+.imgback:hover{
+	background-image:  url(../images/xhdpi/hdr_icoBackA.png) !important;
+background-repeat: no-repeat !important;
+}
+.imgbackdiv{
+	  height: 67%;
+  	position: relative;
+  	top: 10px;
+  	left: 15px;
+}
+.logoutdiv{
+  margin-top: -37px;
+  position: relative;
+  float: right;
+  right: 0px;
+  font-size:40px !important;
+  
+}
+.pclass{
+    padding: 15px 0px 0px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+   	margin-top:-35px;
+   
+}
+.header{
+	margin-left:5% !important;
+	/* background-image:url(../images/ldpi/hdr_icoMenuA.png) !important; 
+background-repeat: no-repeat !important;
+background-position:5% 50% !important; */
+}
+
+.fontm{
+	
+	font-size:14px;
+	position: relative;
+	top:5px; 
+	 margin-left:250px;
+	font-family:Roboto;
+	
+}
+.fontcat{
+	font-size:12px;
+	position: relative;
+	top:5px; 
+	left:310px;
+	font-family:Roboto;
+	text-color:black;
+}
+.fontsub{
+	font-size:12px;
+	margin-left: 5px;
+	font-family:Roboto;
+	
+}
+.chartable{
+	width: 90%;
+  border-spacing:1px;
+  margin:0;
+  border-color : #a8a8a8;
+  border: 1px solid #a8a8a8;
+  margin-left:50px;
+  margin-top:90px;
+	/* border-collapse: collapse; */
+	text-align: center;
+	font-family:Roboto;
+	font-size:10px;
+	font-weight:normal;
+	color:#090f0f;
+}
+.chartable tr:nth-child(odd) td{
+	background-color:#dedede !important;
+}
+.chartable tr:nth-child(even) td{
+	background-color:#d3d3d3 !important;
+}
+.table{
+  width: 100%;
+  border-spacing:0;
+  margin:0;
+  border-color : #a8a8a8;
+  border: 1px solid #a8a8a8;
+  margin-left:0px;
+  margin-top:-1px;
+	border-collapse: collapse;
+	text-align: center;
+	font-family:Roboto;
+}
+.table td,th{
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-family:Roboto;
+  }
+  .lab
+{
+	font-size:16px !important;
+	padding-left:110px !important;
+	padding-top:10px !important;
+}
+  .labelpanel{
+  padding-left: 60px;
+  font-size: 18px;
+  padding-top: 22px;
+  font-weight: lighter;
+}
+.requiredlabel{
+	margin-left: 54%;
+  margin-top: -43px;
+}
+.aboutimage{
+	content: url('../images/xhdpi/menuIco_About.png');
+}
+
+#abimg:hover .aboutimage{
+content:  url('../images/xhdpi/menuIco_AboutA.png');
+}
+.settingimage{
+	content: url('../images/xhdpi/menuIco_Settings.png');
+}
+#setimg:hover .settingimage{
+	content: url('../images/xhdpi/menuIco_SettingsA.png');
+}
+.signoutimage{
+	content: url('../images/xhdpi/menuIco_logout.png');
+}
+#logimg:hover .signoutimage{
+	content: url('../images/xhdpi/menuIco_logoutA.png');
+}
+.notifimage{
+	content: url('../images/xhdpi/menuIco_Notif.png');
+}
+#notimg:hover .notifimage{
+	content: url('../images/xhdpi/menuIco_NotifA.png');
+}
+.vodalogo{
+content : url('../images/xhdpi/logo_aboutPage.png');
+position:relative;
+left: 34%;
+  margin-top: 60px;
+}
+.pabout {
+  position: relative;
+  color: black !important;
+  top: 80px;
+  left: 157px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.latpage{
+	position: absolute;
+	left: 48%;
+	font-size:16px;
+}
+.latsource{
+	font-weight:bold !important;
+	 font-family:arial;
+	 font-size:16px;
+}

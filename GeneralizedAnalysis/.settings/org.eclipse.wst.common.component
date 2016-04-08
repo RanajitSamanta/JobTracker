@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GeneralizedAnalysis">
+        <wb-resource deploy-path="/" source-path="/apps/Generalanalytics/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/Generalanalytics/android"/>
+        <wb-resource deploy-path="/" source-path="/apps/Generalanalytics/iphone"/>
+        <wb-resource deploy-path="/" source-path="/apps/Generalanalytics/ipad"/>
+        <property name="context-root" value="GeneralizedAnalysis"/>
+    </wb-module>
+</project-modules>

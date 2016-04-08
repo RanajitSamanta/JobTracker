@@ -1,0 +1,123 @@
+
+/* Stylesheet content from css/main.css in folder common */
+
+/* Stylesheet content from css/main.css in folder android */
+
+/* this CSS file extends the application CSS file found under common\css */
+
+/* .styling{
+	background-image:url(../images/splash.9.png) !important; 
+	background-repeat: no-repeat !important;
+	 height: 480px;
+ 	 width: 320px;
+ 	 background-color:#edeced !important;
+}
+
+.padset{
+	
+	background-color: #e71d1c !important;
+	 width:100% !important;
+	 color: white !important;
+	 height:22px !important;
+      
+	}
+btn:hover{
+	color:#a1a3b5;
+}  
+	.marginsetting{margin-top:170px;
+	}
+.setting{	
+    border-style: solid !important;
+    border-width: 1px !important; 
+    border-color: #e71d1c;
+    color:#a1a3b5 !important;
+
+}
+.password{
+	background-image: url(../images/password.png) !important;
+	background-position: left !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	
+}
+.username{
+	background-image: url(../images/username.png) !important;
+	background-position: left !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	}
+#rectangle1{
+	border-radius: 8px;
+	margin-left:20%;
+	margin-top:100px;
+	position:relative;
+	top:70px;
+	left:50px;
+    width:200px;
+    height:100px;
+    background: #e71d1c !important;
+}
+#rectangle2{
+	border-radius: 8px;
+	margin-left:20%;
+	margin-top:40px;
+	position:relative;
+	top:100px;
+	left:50px;
+    width:200px;
+    height:100px;
+    background: #e71d1c !important;
+}
+
+.span12{
+	 border-style:solid;
+    border-color:#e71d1c;
+    border-width:1px 1px 1px 1px;
+    background-color:white;
+    color:#000 !important;
+    font-size:11px;
+    width:100%; height:100%
+    background:url('../images/username.png') no-repeat;
+    background-position:100% center;
+   
+}
+.labell{
+	
+	color: red;
+	 margin-left: 20px; 
+	 margin-top: 20px; 
+	 font-size:14px;
+}
+
+.selectstyle{
+	margin-left: 20px;
+	 margin-top: 5px; 
+	 width: 80%; 
+	 height: 30px;
+}
+
+.styled-button {
+	background: #5B74A8;
+	background: -moz-linear-gradient(top,#e71d1c 0%,#e71d1c 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e71d1c), color-stop(100%,#e71d1c));
+	background: -webkit-linear-gradient(top,#e71d1c 0%,#e71d1c 100%);
+	background: -o-linear-gradient(top,#e71d1c 0%,#e71d1c 100%);
+	background: -ms-linear-gradient(top,#e71d1c 0%,#e71d1c 100%);
+	background: linear-gradient(top,#e71d1c 0%,#e71d1c 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e71d1c',endColorstr='#5B74A8',GradientType=0);
+	padding:2px 6px;
+	height:10px;
+	color:#fff;
+	font-family:'Helvetica',sans-serif;
+	font-size:11px;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border:1px solid transparent;
+} */

@@ -1,0 +1,389 @@
+
+/* Stylesheet content from css/mdpi.css in folder common */
+
+/* Stylesheet content from css/main.css in folder common */
+
+/* Stylesheet content from css/main.css in folder android */
+
+/* this CSS file extends the application CSS file found under common\css */
+
+.styling{
+	background-image:url(../images/mdpi/mdpi_splashScreen.png) !important; 
+	background-repeat: no-repeat !important;
+	 /* height: 480px;
+ 	 width: 320px; */
+ 	 background-color:#edeced !important;
+}
+.logologin{
+	/* background-image:url(../images/mdpi/loginlogoIBM.png) !important; 
+	background-repeat: no-repeat !important; */
+    margin-left: 130px;
+ 	padding-top: 57px;
+}
+.padset{
+	
+	background-color: #00007f !important;
+	 width:100% !important;
+	 color: white !important;
+	 height:22px !important;
+      
+	}
+ .padsetback{
+	
+	background-color: white !important;
+	 width:100% !important;
+	 color: black !important;
+	 height:22px !important;
+	  border-color:transparent !important;
+      
+	}
+.marginsetting{margin-top:180px;
+
+	}
+.setting{	
+    border-style: solid !important;
+    border-width: 1px !important; 
+    border-color: #00007f;
+    color:#a1a3b5 !important;
+
+}
+
+.password{
+	background-image: url(../images/mdpi/ico_login_pw.png) !important;
+	background-position: 5% 30% !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	
+}
+.username{
+	background-image: url(../images/mdpi/ico_login_un.png) !important;
+	background-position: 5% 20%  !important;
+	background-repeat: no-repeat !important;
+	
+	padding-left: 50px !important;
+	vertical-align:middle !important;
+	font-family: sans-serif !important;
+	}
+#rectangle2{
+	margin-top:5px;
+	background-image: url(../images/mdpi/hm_icoETLJobReport.png) !important;
+	background-position: 50% 20% !important; !important;
+	height:150px;
+	background-repeat: no-repeat !important;
+	width:39%;
+	 position: relative;
+  left: 31%;
+}
+#rectangle2:hover{
+background-image:  url(../images/mdpi/hm_icoETLJobReportA.png) !important;
+background-repeat: no-repeat !important;
+}
+#rectangle1{	
+	margin-top:25px;
+	background-image: url(../images/mdpi/hm_icoDataLatencyStatus.png) !important;
+	background-position: 50% 20% !important; !important;
+	height:150px;
+	background-repeat: no-repeat !important;
+	width:39%;
+	 position: relative;
+  left: 31%;
+    
+}
+#rectangle1:hover{
+background-image:  url(../images/mdpi/hm_icoDataLatencyStatusA.png) !important;
+background-repeat: no-repeat !important;
+}
+#rectangle3{	
+	
+	margin-top:5px;
+	background-image: url(../images/mdpi/hm_icoETLJobReportTrend.png) !important;
+	background-position: 50% 20% !important; !important;
+	height:150px;
+	background-repeat: no-repeat !important;
+	width:41%;
+	 position: relative;
+  left: 31%;
+    
+}
+#rectangle3:hover{
+background-image:  url(../images/mdpi/hm_icoETLJobReportTrendA.png) !important;
+background-repeat: no-repeat !important;
+}
+.undercircle
+{	position:relative;
+ 	top:110px;
+    left:10%; 
+    color:#00007f;
+}
+.feedback{
+	position:relative;
+ 	left:5% !important;
+   
+}
+.jobreport{
+	position:relative;
+ 	left:18% !important; 
+}
+.headplace{
+	float: right;
+    margin-right: 216px !important;
+}
+.labell{
+	
+	color: #00007f;
+	 margin-left: 20px; 
+	 margin-top: 20px; 
+	 font-size:14px;
+}
+
+
+.styled-button {
+	background: #5B74A8;
+	background: -moz-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#00007f), color-stop(100%,#00007f));
+	background: -webkit-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: -o-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: -ms-linear-gradient(top,#00007f 0%,#00007f 100%);
+	background: linear-gradient(top,#00007f 0%,#00007f 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00007f',endColorstr='#5B74A8',GradientType=0);
+	padding:2px 6px;
+	height:10px;
+	color:#fff;
+	font-family:'Helvetica',sans-serif;
+	font-size:11px;
+	border-radius:0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+	border:1px solid transparent;
+}
+
+.imgham{
+	background-image:url(../images/mdpi/hdr_icoMenu.png) !important; 
+	background-repeat: no-repeat !important;
+	background-position:5% 50% !important;
+	width:10% !important;
+	height:50px;
+}
+.imgham:hover{
+	background-image:url(../images/mdpi/hdr_icoMenuA.png) !important; 
+	background-repeat: no-repeat !important;
+}
+.imgback{
+	background-image:url(../images/mdpi/hdr_icoBack.png) !important; 
+	background-repeat: no-repeat !important;
+	background-position:5% 50% !important;
+	width:10% !important;
+	margin-left:0px;position: relative;top:38px;
+}
+
+.imgback:hover{
+	background-image:  url(../images/mdpi/hdr_icoBackA.png) !important;
+background-repeat: no-repeat !important;
+}
+.imgbackdiv{
+	  height: 32%;
+  	  position: relative;
+  	  top: 20px;
+  	  left: 15px;
+}
+.logoutdiv{
+  margin-top: -27px;
+  position: relative;
+  float: right;
+  right: 15px;
+  font-size:22px !important;
+  
+}
+.pclass{
+    padding: 15px 0px 0px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+   	margin-top:-14px;
+   
+}
+
+.header{
+	margin-left:5% !important;
+	/* background-image:url(../images/ldpi/hdr_icoMenuA.png) !important; 
+background-repeat: no-repeat !important;
+background-position:5% 30% !important; */
+	
+}
+.fontm{
+	font-size:13px;
+	position: relative;
+	top:0px; 
+	margin-left:90px;
+	font-family:Roboto;
+}
+.fontcat{
+	font-size:12px;
+	position: relative;
+	top:7px; 
+	left:120px;
+	font-family:Roboto;
+	color:grey !important;
+}
+.fontsub{
+	font-size:10px; 
+	margin-left: 3px;
+	font-family:Roboto;
+
+}
+.chartable{
+	width: 90%;
+  border-spacing:1px;
+  margin:0;
+  border-color : #a8a8a8;
+  border: 1px solid #a8a8a8;
+  margin-left:20px;
+  margin-top: 75px !important;
+	/* border-collapse: collapse; */
+	text-align: center;
+	font-family:Roboto;
+	font-size:10px;
+	font-weight:normal;
+	color:#090f0f;
+}
+.chartable tr:nth-child(odd) td{
+	background-color:#dedede !important;
+}
+.chartable tr:nth-child(even) td{
+	background-color:#d3d3d3 !important;
+}
+.table{
+  width: 100%;
+  border-spacing:0;
+  margin:0;
+  border-color : #a8a8a8;
+  border: 1px solid #a8a8a8;
+  margin-left:0px;
+  margin-top:-9px;
+	border-collapse: collapse;
+	text-align: center;
+	font-family:Roboto;
+}
+.table td,th{
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-family:Roboto;
+  }
+  .lab
+{
+	font-size:13px !important;
+	padding-left:110px !important;
+	padding-top:14px !important;
+}
+.labelpanel{
+  padding-left: 60px;
+  font-size: 14px;
+  padding-top: 22px;
+  font-weight: lighter;
+}
+.requiredlabel{
+	  margin-left: 60%;
+      margin-top: -43px;
+}
+
+.aboutimage{
+	content: url('../images/mdpi/menuIco_About.png');
+	position:relative;
+	left:25px !important
+}
+
+#abimg:hover .aboutimage{
+content:  url('../images/mdpi/menuIco_AboutA.png');
+}
+.settingimage{
+	content: url('../images/mdpi/menuIco_Settings.png');
+	position:relative;
+	left:25px !important
+}
+#setimg:hover .settingimage{
+	content: url('../images/mdpi/menuIco_SettingsA.png');
+}
+.signoutimage{
+	content: url('../images/mdpi/menuIco_logout.png');
+	position:relative;
+	left:25px !important
+}
+#logimg:hover .signoutimage{
+	content: url('../images/mdpi/menuIco_logoutA.png');
+}
+.notifimage{
+	content: url('../images/mdpi/menuIco_Notif.png');
+	position:relative;
+	left:25px !important
+}
+#notimg:hover .notifimage{
+	content: url('../images/mdpi/menuIco_NotifA.png');
+}
+.vodalogo{
+content : url('../images/mdpi/logo_aboutPage.png');
+position:relative;
+  left: 25%;
+  margin-top: 40px;
+}
+.pabout{
+  position: relative;
+  color: black !important;
+  top: 50px;
+  font-weight: bold;
+}
+.redcircle
+    {
+    width:40px;
+    height:40px;
+    border-radius:200px;
+    font-size:12px;
+    color:black;
+    line-height:40px;
+    text-align:center;
+    background:red;
+    margin-top:-12px;
+    }
+ .greencircle
+    {
+    width:40px;
+    height:40px;
+    border-radius:200px;
+    font-size:12px;
+    color:black;
+    line-height:40px;
+    text-align:center;
+    background:lightgreen;
+    margin-top:-12px;
+    }
+ .circle
+    {
+    width:10px;
+    height:10px;
+    border-radius:200px;
+    background:grey;
+    position: relative;
+    top: 5px;
+    left: -4px;
+    }
+.jobs{ color: black;
+    font-weight: bold;
+    border-bottom: 1px solid lightgrey;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: -40px;
+    padding-left: 20px;
+    
+}
+.latpage{
+	position: absolute;
+	left: 48%;
+	font-size:12px;
+}
+.latsource{
+	font-weight:bold !important;
+	 font-family:arial;
+	 font-size:12px;
+}
